@@ -9,7 +9,7 @@ my dotfiles
 
 ## details
 
-os: artix
-wm: i3
-launcher: rofi
+os: artix  
+wm: i3  
+launcher: rofi  
 terminal alacritty
