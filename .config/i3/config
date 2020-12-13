@@ -166,7 +166,7 @@ bindsym $mod+r mode "resize"
 
 #autostarts
 exec picom
-exec_always feh --bg-scale /home/devinr/Images/macOS.jpg
+exec_always wal -R
 exec_always ~/.config/polybar/launch.sh
 
 #remove titlebar
