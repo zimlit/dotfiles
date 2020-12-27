@@ -166,8 +166,8 @@ bindsym $mod+r mode "resize"
 
 #autostarts
 exec picom
-exec_always wal -R
 exec_always ~/.config/polybar/launch.sh
+exec_always feh --bg-scale ~/.config/i3/wallpaper.jpg
 
 #remove titlebar
 for_window [class=".*"] border pixel 0
