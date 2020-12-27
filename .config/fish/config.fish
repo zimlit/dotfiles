@@ -11,3 +11,7 @@ function fish_prompt
     set_color normal
     echo \ $pc
 end
+
+fundle plugin 'danhper/fish-ssh-agent'
+
+fundle init
