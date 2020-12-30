@@ -15,3 +15,5 @@ end
 fundle plugin 'danhper/fish-ssh-agent'
 
 fundle init
+
+set -x PATH $PATH /home/devinr/.gem/ruby/2.7.0/bin
