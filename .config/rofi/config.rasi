@@ -37,7 +37,10 @@
     // Bold, Italic, Underline
     highlight:     bold #ffffff;
     font:          "courier prime 11";
+    dpi: 144;
+
 }
+
 #window {
     height:   30em;
     width: 50em;
@@ -45,6 +48,7 @@
     anchor:   center;
     border:  0px 2px 0px 0px;
     text-color: @lightwhite;
+
 }
 
 #button selected {
