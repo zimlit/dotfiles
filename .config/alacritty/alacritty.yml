@@ -1,7 +1,13 @@
+
+
 window:
   padding:
     x: 100
     y: 100
+
+  dpi:
+    x: 144.0
+    y: 144.0
 
 
 # Font configuration
