@@ -37,7 +37,6 @@
     // Bold, Italic, Underline
     highlight:     bold #ffffff;
     font:          "courier prime 11";
-    dpi: 144;
 
 }
 

@@ -27,19 +27,18 @@ awful.screen.connect_for_each_screen(function(s)
     s.mytaglist = awful.widget.taglist {
         screen  = s,
         filter  = awful.widget.taglist.filter.all,
-        buttons = taglist_buttons
+        buttons = taglist_buttons,
     }
 
 
     s.mywibox = awful.wibar({ position = "bottom", screen = s, height = dpi(45)
-    , bg="#0000000000" })
+    , bg="#00000000" })
 
     -- Add widgets to the wibox
     s.mywibox:setup {
-        layout = wibox.container.place,
-            s.mytaglist,
-            valign = "center",
-            halign = "center",
-            layout = wibox.container.place
+        layout = wibox.layout.align.horizontal,
+            wibox.container.margin(s.mytaglist, 1920, nil, 10, 10),
+            
+            layout = wibox.layout.align.horizontal,
     }
 end)
