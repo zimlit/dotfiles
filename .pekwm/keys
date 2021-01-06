@@ -71,6 +71,7 @@ Global {
 	# External Commands
 	KeyPress = "Mod1 Print" { Actions = "Exec $_PEKWM_SCRIPT_PATH/pekwm_screenshot.sh" }
 	KeyPress = "Mod4 Return" { Actions = "Exec $TERM" }
+	KeyPress = "Mod4 P" {Actions = "Exec rofi -show run"}
 	# Pekwm control
 	KeyPress = "Ctrl Mod1 Delete" { Actions = "Reload" }
 	KeyPress = "Mod4 D" { Actions = "ShowCmdDialog" }

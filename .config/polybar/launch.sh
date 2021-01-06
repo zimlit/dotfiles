@@ -8,6 +8,5 @@ pkill polybar
 
 # Launch bar1 and bar2
 polybar main &
-polybar bottom &
 
 echo "Bars launched..."

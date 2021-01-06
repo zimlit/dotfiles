@@ -36,6 +36,7 @@ height = 27
 ;offset-y = 1%
 radius = 10
 fixed-center = false
+dpi = 144
 
 background = ${colors.background}
 foreground = ${colors.foreground}
@@ -52,7 +53,7 @@ padding-right = 0
 module-margin-left = 0
 module-margin-right = 0
 
-font-0 = "Source Code Pro Semibold:size=10;1"
+font-0 = "courier prime Semibold:size=10;1"
 font-1 = "FontAwesome:style=Regular:size=10;1"
 font-2 = "Font Awesome 5 Free:pixelsize=10;3"
 font-3 = "Font Awesome 5 Free Solid:pixelsize=10;3"
