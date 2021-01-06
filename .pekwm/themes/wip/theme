@@ -13,24 +13,24 @@ Require {
 
 Define = "Border" {
   Focused {
-    #TopLeft = "Image top-left.png"
-    #Top = "Image top-border.png"
-    #TopRight = "Image top-right.png"
-    #Left =  "Image left-border.png"
-    #Right = "Image right-border.png"
-    #BottomLeft = "Image bottom-left.png"
-    #Bottom = "Image bottom-border.png"
-    #BottomRight = "Image bottom-right.png"
+    TopLeft = "Image top-left.png"
+    Top = "Image top-border.png"
+    TopRight = "Image top-right.png"
+    Left =  "Image left-border.png"
+    Right = "Image right-border.png"
+    BottomLeft = "Image bottom-left.png"
+    Bottom = "Image bottom-border.png"
+    BottomRight = "Image bottom-right.png"
   }
   Unfocused {
-    #TopLeft = "Image top-left_unfocus.png"
-    #Top = "Image top-border_unfocus.png"
-    #TopRight = "Image top-right_unfocus.png"
-    #Left =  "Image left-border_unfocus.png"
-    #Right = "Image right-border_unfocus.png"
-    #BottomLeft = "Image bottom-left_unfocus.png"
-    #Bottom = "Image bottom-border_unfocus.png"
-    #BottomRight = "Image bottom-right_unfocus.png"
+    TopLeft = "Image top-left_unfocus.png"
+    Top = "Image top-border_unfocus.png"
+    TopRight = "Image top-right_unfocus.png"
+    Left =  "Image left-border_unfocus.png"
+    Right = "Image right-border_unfocus.png"
+    BottomLeft = "Image bottom-left_unfocus.png"
+    Bottom = "Image bottom-border_unfocus.png"
+    BottomRight = "Image bottom-right_unfocus.png"
   }
 }
 
