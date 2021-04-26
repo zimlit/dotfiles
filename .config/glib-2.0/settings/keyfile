@@ -1,0 +1,3 @@
+[org/gnome/nm-applet/eap/8483d89c-0ff1-4cd0-833d-9d7e4a35da36]
+ignore-ca-cert=false
+ignore-phase2-ca-cert=false
