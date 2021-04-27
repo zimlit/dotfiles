@@ -7,6 +7,7 @@ local dpi = xresources.apply_dpi
 local net_widgets = require("net_widgets")
 net_wireless = net_widgets.wireless({interface="wlp29s0"})
 local volume_widget = require('awesome-wm-widgets.volume-widget.volume')
+local power = require("widgets.powerbutton")
 
 mytextclock = wibox.widget.textclock("%H:%M")
 
@@ -41,6 +42,7 @@ awful.screen.connect_for_each_screen(function(s)
 		volume_widget{
         	    widget_type = 'arc'
         	},
+		power,
             },
             nil,
             { -- Right widgets
