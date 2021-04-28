@@ -20,4 +20,4 @@ set -x PATH $PATH /home/devinr/.gem/ruby/2.7.0/bin
 set -x PATH $PATH /home/devinr/.rbenv/bin
 set -x PATH $PATH /home/devinr/.rbenv/versions/3.0.0/bin
 
-status --is-interactive; and rbenv init - | source
+#status --is-interactive; and rbenv init - | source
