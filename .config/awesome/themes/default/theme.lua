@@ -13,7 +13,7 @@ local theme = {}
 
 theme.font          = "courier prime 8"
 
-theme.bg_normal     = "#1d1f2180"
+theme.bg_normal     = "#1d1f21"
 theme.bg_focus      = "#535d6c"
 theme.bg_urgent     = "#ff0000"
 theme.bg_minimize   = "#444444"
@@ -23,6 +23,7 @@ theme.fg_normal     = "#aaaaaa"
 theme.fg_focus      = "#ffffff"
 theme.fg_urgent     = "#ffffff"
 theme.fg_minimize   = "#ffffff"
+theme.taglist_bg_focus = "#61afef"
 
 theme.useless_gap   = 25
 theme.border_width  = 0

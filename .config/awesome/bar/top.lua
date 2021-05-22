@@ -3,6 +3,7 @@ local awful = require("awful")
 local wibox = require("wibox")
 local tgb = require("widgets.tagbutton")
 local xresources = require("beautiful.xresources")
+local beautiful = require("beautiful")
 local dpi = xresources.apply_dpi
 local net_widgets = require("net_widgets")
 local volume_widget = require('awesome-wm-widgets.volume-widget.volume')
@@ -29,7 +30,7 @@ awful.screen.connect_for_each_screen(function(s)
   -- Create a taglist widget
 
   -- Create the wibox
-  s.top = awful.wibar({ position = "top", screen = s, height = dpi(25) })
+  s.top = awful.wibar({ position = "top", screen = s, height = dpi(25), bg=beautiful.bg_normal .. "80" })
 
   -- Add widgets to the wibox
   s.top:setup {

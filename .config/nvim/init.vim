@@ -151,7 +151,7 @@ augroup end
 
 " abreviations {{{
 	iabbrev @@ zimlit2010@gmail.com
-	iabbrev .c zimlit.com
+	iabbrev .w zimlit.com
 " }}}
 
 " statusline {{{

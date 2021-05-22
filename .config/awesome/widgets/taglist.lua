@@ -1,6 +1,8 @@
 local awful = require("awful")
 local gears = require("gears")
 local wibox = require("wibox")
+local beautiful = require("beautiful")
+local tags = {"", "", "", "", ""}
 
 local taglist = function(s)
   local tg = awful.widget.taglist {
@@ -25,7 +27,7 @@ local taglist = function(s)
               margins = 2,
               widget  = wibox.container.margin,
             },
-            bg     = '#dddddd',
+            bg     = beautiful.bg_normal,
             shape  = gears.shape.circle,
             widget = wibox.container.background,
           },
@@ -47,34 +49,10 @@ local taglist = function(s)
       widget = wibox.container.background,
       -- Add support for hover colors and an index label
       create_callback = function(self, c3, index, objects) --luacheck: no unused args
-        local val = "p"
-        if index == 1 then
-          val = ""
-        elseif index == 2 then
-          val = ""
-        elseif index == 3 then
-          val = ""
-        elseif index == 4 then
-          val = ""
-        elseif index == 5 then
-          val = ""
-        end
-        self:get_children_by_id('index_role')[1].markup = '<b> '..val..' </b>'
+        self:get_children_by_id('index_role')[1].markup = '<b> '..tags[index]..' </b>'
       end,
       update_callback = function(self, c3, index, objects) --luacheck: no unused args
-        local val = "p"
-        if index == 1 then
-          val = ""
-        elseif index == 2 then
-          val = ""
-        elseif index == 3 then
-          val = ""
-        elseif index == 4 then
-          val = ""
-        elseif index == 5 then
-          val = ""
-        end
-        self:get_children_by_id('index_role')[1].markup = '<b> '..val..' </b>'
+        self:get_children_by_id('index_role')[1].markup = '<b> '..tags[index]..' </b>'
       end,
     },
     buttons = taglist_buttons

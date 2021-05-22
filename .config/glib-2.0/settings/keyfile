@@ -1,3 +1,17 @@
 [org/gnome/nm-applet/eap/8483d89c-0ff1-4cd0-833d-9d7e4a35da36]
 ignore-ca-cert=false
 ignore-phase2-ca-cert=false
+
+[org/gtk/settings/file-chooser]
+window-position=(0, 48)
+window-size=(3934, 2929)
+date-format='regular'
+location-mode='path-bar'
+show-hidden=true
+show-size-column=true
+show-type-column=true
+sidebar-width=233
+sort-column='name'
+sort-directories-first=false
+sort-order='ascending'
+type-format='category'
